@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  width: 100%;
+  font-family: 'Barlow', sans-serif;
+}
+
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.coffe {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coffe img {
+  width: 250px;
+}
+
+.coffe_items {
+  display: flex;
+  text-transform: uppercase;
+  gap: 20px;
+  color: #83888F;
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+.burger{
+  display: none;
+}
+@media only screen and (max-width: 730px){
+  .coffe_items{
+    display: none;
+  }
+  .burger{
+    display: block;
+  }
+}
+/*About Us*/
+
+.header {
+  margin-top: 50px;
+  flex-wrap: wrap;
+  padding: 180px 20px;
+  border-radius: 15px;
+  background-image: url('img/Bitmap.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.header_text {
+  color: white;
+  margin-left: 80px;
+  margin-right: 800px;
+  
+}
+
+.header_text h1 {
+  margin-bottom: 40px;
+  color: #FEFCF7;
+  font-family: Fraunces 9pt;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+  
+}
+
+
+/*Our commitment*/
+
+.main {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.main_2 {
+  display: flex;
+  margin-top: 200px;
+}
+
+.main_2 img {
+  width: 500px;
+  border-radius: 5px;
+
+}
+
+.main_text {
+  margin: 100px 0px 0px 100px;
+  font-family: Barlow;
+}
+
+.main_text h2 {
+  margin-bottom: 40px;
+  color: #333D4B;
+  font-family: Fraunces 9pt;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+  /* 120% */
+}
+
+.main_text p {
+  color: #333D4B;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+}
+
+/*Section*/
+
+.section {
+  margin-top: 400px;
+  padding: 120px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(70, 64, 64);
+  border-radius: 10px;
+  position: relative;
+}
+
+.section_text {
+  position: relative;
+  width: 50%;
+  color: white;
+  margin-left: 100px;
+}
+
+.section_pic {
+  position: absolute;
+  top: -80px;
+  right: 100px;
+}
+
+.section_pic img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.section_text h2 {
+  color: #FEFCF7;
+  font-family: Fraunces 9pt;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+  /* 120% */
+}
+
+.section_text p {
+  color: #FEFCF7;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 40px;
+}
+
+/*States*/
+
+.states {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px;
+  gap: 90px;
+}
+
+.united_h2 {
+  margin-top: 300px;
+  margin-left: 100px;
+  color: #83888F;
+  font-family: Fraunces 9pt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  /* 133.333% */
+}
+
+.states p {
+  margin-right: 150px;
+  color: #333D4B;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 20px;
+}
+
+.states h2 {
+  color: #333D4B;
+  font-family: Fraunces 9pt;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+  margin-top: 40px;
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  padding: 30px 0px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  background-color: rgb(70, 64, 64);
+  
+}
+
+.footer img {
+  width: 250px;
+  margin-left: 70px;
+}
+
+.footer_items{
+  display: flex;
+  text-transform: uppercase;
+  color: #a4a9b0;
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+
+.footer_item{
+  display: flex;
+  margin-left: 200px;
+  gap: 30px;
+}
+
+.footer_icon img{
+  width: 25px;
+  margin-left: 120px;
+  opacity: 0.9;
+}
